@@ -11,3 +11,27 @@ header {
   background-image: url(../img/rocket.svg);
   background-size: contain;
 }
+
+.intro {
+  font-style: italic;
+}
+
+.plushy-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.plushy {
+  text-align: center;
+  color: slategray;
+}
+
+.plushy__image {
+  width: fit-content;
+  height: 300px;
+  border-radius: 4px;
+}
